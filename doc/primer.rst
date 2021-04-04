@@ -330,7 +330,7 @@ y-displacements at the nodes in the 2D model:
 
 .. sourcecode:: ipython
 
-    In [3]: u = state()
+    In [3]: u = state().copy()
 
     In [4]: u
     Out[4]:
